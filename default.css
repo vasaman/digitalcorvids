@@ -10,7 +10,7 @@
 .footer-item {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 8vw;
   width: 209.3px;
   height: 209.9px;
   object-fit: cover;
@@ -18,7 +18,7 @@
 
 .footer-item {
   top: 197px;
-  left: 191px;
+  left: 29vw;
   width: 766.5px;
   height: 273.9px;
   object-fit: contain;
@@ -188,6 +188,7 @@
 .column-container-inner{
   display: flex;
   flex-direction: row-reverse;
+  margin-right: 5vw;
 }
 .icon{
   display: flex;
@@ -196,7 +197,8 @@
 }
 
 .frame-child{
-  width: 50vw;
+ position: absolute;  
+ width: 38vw;
 }
 
 .rows{
@@ -298,7 +300,8 @@
  }
 
  .main-content-wrapper > img {
-  width: 5vw;
+  width: 3vw;
+  height: auto;
  }
 
  .background-image>img {
@@ -324,4 +327,8 @@
 
  .image-container-wrapper {
   align-self: end;
+ }
+
+ .icon-light {
+  fill: blue;
  }
